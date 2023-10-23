@@ -824,6 +824,124 @@ const SettingsChangeNumber = () => {
 };
 
 export default SettingsChangeNumber;
+import DashboardContainer from "../components/DashboardContainer";
+import ChangeNumberForm from "../components/ChangeNumberForm";
+import FormOTPFull from "../components/FormOTPFull";
+import FormOTPFill from "../components/FormOTPFill";
+import styles from "./SettingsChangeNumber.module.css";
+
+const SettingsChangeNumber = () => {
+  return (
+    <div className={styles.settingsChangeNumber}>
+      <div className={styles.topBar} />
+      <div className={styles.searchBarParent}>
+        <div className={styles.searchBar}>
+          <img className={styles.searchIcon} alt="" src="/search1.svg" />
+          <div className={styles.searchProductSupplier}>
+            Search product, supplier, order
+          </div>
+        </div>
+        <div className={styles.notificationParent}>
+          <div className={styles.notification}>
+            <img
+              className={styles.notificationIcon}
+              alt=""
+              src="/notification.svg"
+            />
+          </div>
+          <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+        </div>
+      </div>
+      <div className={styles.notificationGroup}>
+        <div className={styles.notification}>
+          <img
+            className={styles.notificationIcon}
+            alt=""
+            src="/notification.svg"
+          />
+        </div>
+        <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+      </div>
+      <div className={styles.settings}>Settings</div>
+      <div className={styles.searchBar1}>
+        <img className={styles.searchIcon} alt="" src="/search1.svg" />
+        <div className={styles.searchProductSupplier}>Search User, Vendor</div>
+      </div>
+      <DashboardContainer
+        managementTitle="User Management"
+        propBackgroundColor="#ffddc8"
+        propPadding="0px var(--padding-3xs)"
+        propBoxSizing="border-box"
+        propBackgroundColor1="#fff"
+        propWidth="186px"
+        propBorderRadius="unset"
+        propPadding1="unset"
+        propBoxSizing1="unset"
+      />
+      <div className={styles.groupParent}>
+        <ChangeNumberForm />
+        <div className={styles.changePasswordWrapper}>
+          <div className={styles.changePassword}>Change Password</div>
+        </div>
+        <div className={styles.changeNumberWrapper}>
+          <div className={styles.changeNumber}>Change Number</div>
+        </div>
+        <div className={styles.raiseAComplaintWrapper}>
+          <div className={styles.changeNumber}>Raise a complaint</div>
+        </div>
+        <div className={styles.othersWrapper}>
+          <div className={styles.others}>Others</div>
+        </div>
+        <div className={styles.featureRequestWrapper}>
+          <div className={styles.featureRequest}>Feature Request</div>
+        </div>
+      </div>
+      <FormOTPFull
+        text="2"
+        formOTPFullPosition="absolute"
+        formOTPFullTop="606px"
+        formOTPFullLeft="844px"
+        formOTPFullWidth="327px"
+        formOTPFullHeight="73px"
+        shapeBorderRadius="10px"
+        shapeBorder="1.6px solid var(--color-darkslategray-100)"
+        shapeBoxSizing="border-box"
+        shapeBorderRadius1="10px"
+        shapeBorderRadius2="10px"
+        shapeBorderRadius3="10px"
+      />
+      <FormOTPFill
+        text="2"
+        formOTPFillPosition="absolute"
+        formOTPFillTop="606px"
+        formOTPFillLeft="928px"
+        shapeBorderRadius="10px"
+        shapeBorder="1.6px solid var(--color-darkslategray-100)"
+        shapeBoxSizing="border-box"
+      />
+      <FormOTPFill
+        text="2"
+        formOTPFillPosition="absolute"
+        formOTPFillTop="606px"
+        formOTPFillLeft="1013px"
+        shapeBorderRadius="10px"
+        shapeBorder="1.6px solid var(--color-darkslategray-100)"
+        shapeBoxSizing="border-box"
+      />
+      <FormOTPFill
+        text="2"
+        formOTPFillPosition="absolute"
+        formOTPFillTop="604px"
+        formOTPFillLeft="1097px"
+        shapeBorderRadius="10px"
+        shapeBorder="1.6px solid var(--color-darkslategray-100)"
+        shapeBoxSizing="border-box"
+      />
+    </div>
+  );
+};
+
+export default SettingsChangeNumber;
 import styles from "./SettingsChangeNumber.module.css";
 
 const SettingsChangeNumber = () => {

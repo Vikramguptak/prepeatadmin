@@ -145,6 +145,27 @@ const Login = () => {
 };
 
 export default Login;
+import AccountContainer from "../components/AccountContainer";
+import styles from "./Login.module.css";
+
+const Login = () => {
+  return (
+    <div className={styles.login}>
+      <AccountContainer />
+      <div className={styles.row}>
+        <div className={styles.text}>Don’t have an account?</div>
+        <div className={styles.button}>
+          <div className={styles.buttonBase}>
+            <div className={styles.text1}>Log In</div>
+          </div>
+        </div>
+      </div>
+      <img className={styles.asset21} alt="" src="/asset-2-13@2x.png" />
+    </div>
+  );
+};
+
+export default Login;
 import styles from "./Login.module.css";
 
 const Login = () => {

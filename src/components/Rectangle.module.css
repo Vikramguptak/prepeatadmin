@@ -1,0 +1,7 @@
+.rectangleDiv {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-darkorange-100);
+  filter: blur(4px);
+  width: 1477px;
+  height: 107px;
+}

@@ -1,0 +1,40 @@
+.homeIcon,
+.text {
+  position: relative;
+}
+.homeIcon {
+  width: 24px;
+  height: 24px;
+}
+.text {
+  line-height: 24px;
+  font-weight: 500;
+}
+.content,
+.listMenu {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  width: 186px;
+  height: 24px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-base);
+}
+.listMenu {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-bisque);
+  width: 10px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) 0;
+  text-align: left;
+  font-size: var(--body-1-medium-size);
+  color: var(--base-shade-100);
+  font-family: var(--paragraph-1);
+}

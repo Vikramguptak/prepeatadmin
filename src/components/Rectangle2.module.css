@@ -1,0 +1,6 @@
+.rectangleDiv {
+  border-radius: var(--br-100xl);
+  background-color: #c1d9db;
+  width: 187px;
+  height: 189px;
+}

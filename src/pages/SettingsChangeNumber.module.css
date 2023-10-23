@@ -1820,6 +1820,225 @@
   justify-content: space-between;
   padding: 0 var(--padding-13xl);
   box-sizing: border-box;
+}
+.notificationGroup {
+  position: absolute;
+  top: 30px;
+  left: 1306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.settings {
+  position: absolute;
+  top: 35px;
+  left: 333px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--base-shade-100);
+  text-align: center;
+}
+.searchBar1 {
+  position: absolute;
+  top: 31px;
+  left: 727px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.changePassword {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  display: inline-block;
+  width: 230px;
+  height: 29px;
+}
+.changePasswordWrapper {
+  position: absolute;
+  top: 26px;
+  left: 14px;
+  border-radius: var(--br-3xs);
+  background-color: var(--base-shade-100);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  width: 207px;
+  height: 45px;
+  overflow: hidden;
+}
+.changeNumber {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  display: inline-block;
+  width: 230px;
+  height: 29px;
+}
+.changeNumberWrapper,
+.raiseAComplaintWrapper {
+  position: absolute;
+  top: 26px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  height: 45px;
+  overflow: hidden;
+}
+.changeNumberWrapper {
+  left: 237px;
+  background-color: var(--global-white);
+  width: 192px;
+  color: var(--base-shade-100);
+}
+.raiseAComplaintWrapper {
+  left: 441px;
+  background-color: var(--color-darkslategray-300);
+  width: 203px;
+}
+.others {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  display: inline-block;
+  width: 75px;
+  height: 26px;
+}
+.othersWrapper {
+  position: absolute;
+  top: 26px;
+  left: 876px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-300);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  width: 103px;
+  height: 45px;
+  overflow: hidden;
+}
+.featureRequest {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  display: inline-block;
+  width: 172px;
+  height: 29px;
+}
+.featureRequestWrapper {
+  position: absolute;
+  top: 26px;
+  left: 657px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-300);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  width: 206px;
+  height: 45px;
+  overflow: hidden;
+}
+.groupParent {
+  position: absolute;
+  top: 106px;
+  left: 303px;
+  background-color: var(--global-white);
+  width: 1198px;
+  height: 856px;
+  overflow: hidden;
+  font-size: var(--sub-heading-medium-size);
+  color: var(--global-white);
+  font-family: var(--font-myanmar-khyay);
+}
+.settingsChangeNumber {
+  position: relative;
+  background-color: var(--grey-grey-50);
+  width: 100%;
+  height: 979px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--grey-grey-400);
+  font-family: var(--body-1-medium);
+}
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  background-color: var(--global-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 1209px;
+  height: 100px;
+}
+.searchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.searchProductSupplier {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.searchBar {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.notificationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.notificationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.searchBarParent {
+  position: absolute;
+  top: 28px;
+  left: 280px;
+  width: 1160px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
   font-size: var(--body-1-medium-size);
   color: var(--grey-grey-400);
   font-family: var(--paragraph-1);

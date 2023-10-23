@@ -582,6 +582,79 @@ const Profile = () => {
 };
 
 export default Profile;
+import ProfileInformationContainer from "../components/ProfileInformationContainer";
+import DashboardContainer1 from "../components/DashboardContainer1";
+import styles from "./Profile.module.css";
+
+const Profile = () => {
+  return (
+    <div className={styles.profile}>
+      <div className={styles.topBar} />
+      <div className={styles.searchBarParent}>
+        <div className={styles.searchBar}>
+          <img className={styles.searchIcon} alt="" src="/search1.svg" />
+          <div className={styles.searchProductSupplier}>
+            Search product, supplier, order
+          </div>
+        </div>
+        <div className={styles.notificationParent}>
+          <div className={styles.notification}>
+            <img
+              className={styles.notificationIcon}
+              alt=""
+              src="/notification.svg"
+            />
+          </div>
+          <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+        </div>
+      </div>
+      <div className={styles.notificationGroup}>
+        <div className={styles.notification}>
+          <img
+            className={styles.notificationIcon}
+            alt=""
+            src="/notification.svg"
+          />
+        </div>
+        <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+      </div>
+      <div className={styles.profile1}>Profile</div>
+      <div className={styles.avatar}>
+        <div className={styles.name}>
+          <div className={styles.managerOrganiser}>Manager Organiser</div>
+          <b className={styles.sophia}>Sophia</b>
+        </div>
+        <img className={styles.imageIcon} alt="" src="/image2@2x.png" />
+        <img className={styles.icon} alt="" src="/icon.svg" />
+      </div>
+      <ProfileInformationContainer />
+      <div className={styles.profileInformation}>
+        <div className={styles.details}>
+          <div className={styles.futureTaskDevelopContainer}>
+            <b>{`Future Task: `}</b>
+            <span className={styles.developTheDashboard}>
+              Develop the Dashboard
+            </span>
+          </div>
+          <div className={styles.onGoingTaskContainer}>
+            <b>{`On Going Task: `}</b>
+            <span className={styles.developTheDashboard}>
+              Develop the home screen and menu screen
+            </span>
+          </div>
+          <div className={styles.roleDeveloper}>
+            <b>{`Role: `}</b>
+            <span className={styles.developTheDashboard}>Developer</span>
+          </div>
+        </div>
+      </div>
+      <DashboardContainer1 dimensionCode="/asset-2-1@2x.png" />
+      <img className={styles.image2Icon} alt="" src="/image-2@2x.png" />
+    </div>
+  );
+};
+
+export default Profile;
 import styles from "./Profile.module.css";
 
 const Profile = () => {

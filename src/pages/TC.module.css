@@ -1,0 +1,118 @@
+.tcChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--global-white);
+  width: 1440px;
+  height: 1042px;
+}
+.socialIconAndLogo {
+  position: absolute;
+  height: 2.14%;
+  width: 7.43%;
+  top: 6.45%;
+  right: 7.78%;
+  bottom: 91.42%;
+  left: 84.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.termsAndConditions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 1312px;
+}
+.terms {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.blankLine2 {
+  margin: 0;
+}
+.termsATermsContainer {
+  position: absolute;
+  top: 54px;
+  left: 3px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  font-family: var(--font-montserrat);
+  text-align: left;
+  display: inline-block;
+  width: 1345px;
+  height: 548px;
+}
+.aboutMe {
+  position: absolute;
+  top: 140px;
+  left: 74px;
+  width: 1348px;
+  height: 602px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
+.home,
+.tc1 {
+  position: absolute;
+  top: 58px;
+}
+.tc1 {
+  left: 733px;
+  text-decoration: underline;
+}
+.home {
+  left: 624px;
+}
+.about,
+.contactUs {
+  position: absolute;
+  top: 62px;
+  left: 842px;
+}
+.contactUs {
+  top: 58px;
+  left: 953px;
+}
+.asset21 {
+  position: relative;
+  width: 118px;
+  height: 35px;
+  object-fit: cover;
+}
+.logo,
+.top {
+  width: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top {
+  position: absolute;
+  top: 49px;
+  left: 50px;
+  width: 130px;
+  height: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.tc {
+  position: relative;
+  background-color: var(--global-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--base-shade-100);
+  font-family: var(--font-myanmar-khyay);
+}

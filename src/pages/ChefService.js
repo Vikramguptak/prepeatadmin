@@ -478,6 +478,166 @@ const ChefService = () => {
 };
 
 export default ChefService;
+import LeftIconNORightIconYES from "../components/LeftIconNORightIconYES";
+import FormContainer from "../components/FormContainer";
+import LinesCount2DotstrueSmoo from "../components/LinesCount2DotstrueSmoo";
+import DashboardContainer1 from "../components/DashboardContainer1";
+import styles from "./ChefService.module.css";
+
+const ChefService = () => {
+  return (
+    <div className={styles.chefService}>
+      <div className={styles.topBar} />
+      <div className={styles.searchBarParent}>
+        <div className={styles.searchBar}>
+          <img className={styles.searchIcon} alt="" src="/search1.svg" />
+          <div className={styles.searchProductSupplier}>
+            Search product, supplier, order
+          </div>
+        </div>
+        <div className={styles.notificationParent}>
+          <div className={styles.notification}>
+            <img
+              className={styles.notificationIcon}
+              alt=""
+              src="/notification.svg"
+            />
+          </div>
+          <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+        </div>
+      </div>
+      <div className={styles.notificationGroup}>
+        <div className={styles.notification}>
+          <img
+            className={styles.notificationIcon}
+            alt=""
+            src="/notification.svg"
+          />
+        </div>
+        <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+      </div>
+      <div className={styles.boundsParent}>
+        <img className={styles.boundsIcon} alt="" src="/bounds.svg" />
+        <div className={styles.roxieWard}>JAN</div>
+        <div className={styles.roxieWard1}>APR</div>
+        <div className={styles.roxieWard2}>JUL</div>
+        <div className={styles.roxieWard3}>OCT</div>
+        <div className={styles.roxieWard4}>FEB</div>
+        <div className={styles.roxieWard5}>MAY</div>
+        <div className={styles.roxieWard6}>AUG</div>
+        <div className={styles.roxieWard7}>NOV</div>
+        <div className={styles.roxieWard8}>MAR</div>
+        <div className={styles.roxieWard9}>JUN</div>
+        <div className={styles.roxieWard10}>SEP</div>
+        <div className={styles.roxieWard11}>DEC</div>
+        <div className={styles.roxieWardParent}>
+          <div className={styles.roxieWard12}>400k</div>
+          <div className={styles.roxieWard13}>300k</div>
+          <div className={styles.roxieWard14}>200k</div>
+          <div className={styles.roxieWard15}>100k</div>
+          <div className={styles.roxieWard16}>0</div>
+        </div>
+        <div className={styles.chefServiceStats}>
+          Chef Service Stats: Year 2023
+        </div>
+        <div className={styles.groupChild} />
+        <img className={styles.icons} alt="" src="/group.svg" />
+        <img className={styles.lineIcon} alt="" src="/line.svg" />
+      </div>
+      <div className={styles.chefService1}>Chef Service</div>
+      <div className={styles.month}>Month</div>
+      <div className={styles.sales}>Sales</div>
+      <div className={styles.stackedBarChart}>
+        <LeftIconNORightIconYES
+          cardHeader="Sales"
+          rightValue="Daily Sales"
+          rightValueColor="#6e7880"
+          dividerBackgroundColor="#dde3e7"
+        />
+        <div className={styles.content}>
+          <div className={styles.barChartGrid}>
+            <FormContainer />
+            <div className={styles.sales1}>Sales</div>
+            <LinesCount2DotstrueSmoo
+              linesCount2DotstrueSmooLi="/line-chart.svg"
+              linesCount2DotstrueSmooWidth="calc(100% - 54px)"
+              linesCount2DotstrueSmooHeight="calc(100% + 1px)"
+              linesCount2DotstrueSmooPosition="absolute"
+              linesCount2DotstrueSmooTop="-15px"
+              linesCount2DotstrueSmooRight="-1px"
+              linesCount2DotstrueSmooBottom="14px"
+              linesCount2DotstrueSmooLeft="55px"
+              linesCount2DotstrueSmooMaxWidth="100%"
+              linesCount2DotstrueSmooOverflow="hidden"
+              linesCount2DotstrueSmooMaxHeight="100%"
+            />
+            <div className={styles.barChartGridChild} />
+          </div>
+        </div>
+        <div className={styles.days}>Days</div>
+      </div>
+      <div className={styles.chefServiceChild} />
+      <div className={styles.div}>0</div>
+      <div className={styles.month1}>
+        <div className={styles.jan}>Jan</div>
+        <div className={styles.jan}>Feb</div>
+        <div className={styles.jan}>Mar</div>
+        <div className={styles.jan}>Apr</div>
+        <div className={styles.jan}>May</div>
+      </div>
+      <div className={styles.orders}>
+        <div className={styles.div1}>50,000</div>
+        <div className={styles.jan}>30,000</div>
+        <div className={styles.jan}>20,000</div>
+        <div className={styles.jan}>10,000</div>
+      </div>
+      <div className={styles.totalSales}>Total Sales -</div>
+      <img className={styles.dataIcon} alt="" src="/data1.svg" />
+      <div className={styles.div5}>₹50,000</div>
+      <div className={styles.month2}>Month</div>
+      <div className={styles.sales2}>Sales</div>
+      <div className={styles.div}>0</div>
+      <div className={styles.month1}>
+        <div className={styles.jan}>Jan</div>
+        <div className={styles.jan}>Feb</div>
+        <div className={styles.jan}>Mar</div>
+        <div className={styles.jan}>Apr</div>
+        <div className={styles.jan}>May</div>
+      </div>
+      <div className={styles.orders}>
+        <div className={styles.div1}>50,000</div>
+        <div className={styles.jan}>30,000</div>
+        <div className={styles.jan}>20,000</div>
+        <div className={styles.jan}>10,000</div>
+      </div>
+      <div className={styles.totalSales}>Total Sales -</div>
+      <img className={styles.dataIcon} alt="" src="/data1.svg" />
+      <div className={styles.div5}>₹50,000</div>
+      <div className={styles.month2}>Month</div>
+      <div className={styles.sales2}>Sales</div>
+      <DashboardContainer1
+        dimensionCode="/asset-2-1@2x.png"
+        propTop="1px"
+        propHeight="511px"
+        propWidth="247px"
+        propHeight1="680px"
+        propBackgroundColor="unset"
+        propPadding="unset"
+        propBoxSizing="unset"
+        propBackgroundColor1="#ffddc8"
+        propPadding1="0px var(--padding-3xs)"
+        propBoxSizing1="border-box"
+        propBackgroundColor2="unset"
+        propPadding2="unset"
+        propBoxSizing2="unset"
+        propBackgroundColor3="unset"
+        propHeight2="323px"
+      />
+    </div>
+  );
+};
+
+export default ChefService;
 import styles from "./ChefService.module.css";
 
 const ChefService = () => {

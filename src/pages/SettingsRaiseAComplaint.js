@@ -223,6 +223,81 @@ const SettingsRaiseAComplaint = () => {
 };
 
 export default SettingsRaiseAComplaint;
+import DashboardContainer from "../components/DashboardContainer";
+import ContainerCardForm from "../components/ContainerCardForm";
+import styles from "./SettingsRaiseAComplaint.module.css";
+
+const SettingsRaiseAComplaint = () => {
+  return (
+    <div className={styles.settingsRaiseAComplaint}>
+      <div className={styles.topBar} />
+      <div className={styles.searchBarParent}>
+        <div className={styles.searchBar}>
+          <img className={styles.searchIcon} alt="" src="/search1.svg" />
+          <div className={styles.searchProductSupplier}>
+            Search product, supplier, order
+          </div>
+        </div>
+        <div className={styles.notificationParent}>
+          <div className={styles.notification}>
+            <img
+              className={styles.notificationIcon}
+              alt=""
+              src="/notification.svg"
+            />
+          </div>
+          <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+        </div>
+      </div>
+      <div className={styles.notificationGroup}>
+        <div className={styles.notification}>
+          <img
+            className={styles.notificationIcon}
+            alt=""
+            src="/notification.svg"
+          />
+        </div>
+        <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+      </div>
+      <div className={styles.settings}>Settings</div>
+      <div className={styles.searchBar1}>
+        <img className={styles.searchIcon} alt="" src="/search1.svg" />
+        <div className={styles.searchProductSupplier}>Search User, Vendor</div>
+      </div>
+      <DashboardContainer
+        managementTitle="User Management"
+        propBackgroundColor="#ffddc8"
+        propPadding="0px var(--padding-3xs)"
+        propBoxSizing="border-box"
+        propBackgroundColor1="#fff"
+        propWidth="186px"
+        propBorderRadius="unset"
+        propPadding1="unset"
+        propBoxSizing1="unset"
+      />
+      <div className={styles.groupParent}>
+        <ContainerCardForm />
+        <div className={styles.changePasswordWrapper}>
+          <div className={styles.changePassword}>Change Password</div>
+        </div>
+        <div className={styles.changeNumberWrapper}>
+          <div className={styles.changeNumber}>Change Number</div>
+        </div>
+        <div className={styles.raiseAComplaintWrapper}>
+          <div className={styles.changeNumber}>Raise a complaint</div>
+        </div>
+        <div className={styles.othersWrapper}>
+          <div className={styles.others}>Others</div>
+        </div>
+        <div className={styles.featureRequestWrapper}>
+          <div className={styles.featureRequest}>Feature Request</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SettingsRaiseAComplaint;
 import styles from "./SettingsRaiseAComplaint.module.css";
 
 const SettingsRaiseAComplaint = () => {

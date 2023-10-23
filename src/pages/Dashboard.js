@@ -940,6 +940,320 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+import SalesOverviewContainer from "../components/SalesOverviewContainer";
+import SalesOverviewContainer1 from "../components/SalesOverviewContainer1";
+import ProductSummaryContainer from "../components/ProductSummaryContainer";
+import LeftIconNORightIconYES from "../components/LeftIconNORightIconYES";
+import FormContainer from "../components/FormContainer";
+import LinesCount2DotstrueSmoo from "../components/LinesCount2DotstrueSmoo";
+import ListMenu from "../components/ListMenu";
+import styles from "./Dashboard.module.css";
+
+const Dashboard = () => {
+  return (
+    <div className={styles.dashboard}>
+      <div className={styles.topBar} />
+      <div className={styles.searchBarParent}>
+        <div className={styles.searchBar}>
+          <img className={styles.searchIcon} alt="" src="/search1.svg" />
+          <div className={styles.searchProductSupplier}>
+            Search product, supplier, order
+          </div>
+        </div>
+        <div className={styles.notificationParent}>
+          <div className={styles.notification}>
+            <img
+              className={styles.notificationIcon}
+              alt=""
+              src="/notification.svg"
+            />
+          </div>
+          <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+        </div>
+      </div>
+      <div className={styles.notificationGroup}>
+        <div className={styles.notification}>
+          <img
+            className={styles.notificationIcon}
+            alt=""
+            src="/notification.svg"
+          />
+        </div>
+        <img className={styles.avatarIcon} alt="" src="/avatar@2x.png" />
+      </div>
+      <SalesOverviewContainer />
+      <SalesOverviewContainer1 />
+      <ProductSummaryContainer />
+      <div className={styles.dashboardChild} />
+      <div className={styles.div}>0</div>
+      <div className={styles.month}>
+        <div className={styles.jan}>Jan</div>
+        <div className={styles.jan}>Feb</div>
+        <div className={styles.jan}>Mar</div>
+        <div className={styles.jan}>Apr</div>
+        <div className={styles.jan}>May</div>
+      </div>
+      <div className={styles.orders}>
+        <div className={styles.div1}>50,000</div>
+        <div className={styles.jan}>30,000</div>
+        <div className={styles.jan}>20,000</div>
+        <div className={styles.jan}>10,000</div>
+      </div>
+      <div className={styles.totalSales}>Total Sales -</div>
+      <img className={styles.dataIcon} alt="" src="/data1.svg" />
+      <div className={styles.div5}>₹50,000</div>
+      <div className={styles.dashboard1}>Dashboard</div>
+      <div className={styles.stackedBarChart}>
+        <LeftIconNORightIconYES
+          cardHeader="Sales"
+          rightValue="Daily Sales"
+          rightValueColor="#6e7880"
+          dividerBackgroundColor="#dde3e7"
+        />
+        <div className={styles.content}>
+          <div className={styles.barChartGrid}>
+            <FormContainer />
+            <div className={styles.sales}>Sales</div>
+            <LinesCount2DotstrueSmoo
+              linesCount2DotstrueSmooLi="/line-chart1.svg"
+              linesCount2DotstrueSmooWidth="calc(100% - 54px)"
+              linesCount2DotstrueSmooHeight="calc(100% + 1px)"
+              linesCount2DotstrueSmooPosition="absolute"
+              linesCount2DotstrueSmooTop="-15px"
+              linesCount2DotstrueSmooRight="-1px"
+              linesCount2DotstrueSmooBottom="14px"
+              linesCount2DotstrueSmooLeft="55px"
+              linesCount2DotstrueSmooMaxWidth="100%"
+              linesCount2DotstrueSmooOverflow="hidden"
+              linesCount2DotstrueSmooMaxHeight="100%"
+            />
+            <div className={styles.barChartGridChild} />
+          </div>
+        </div>
+        <div className={styles.days}>Days</div>
+      </div>
+      <div className={styles.month1}>Month</div>
+      <div className={styles.sales1}>Sales</div>
+      <div className={styles.tiffinService}>
+        <div className={styles.listMenuWrapper}>
+          <div className={styles.listMenu}>
+            <div className={styles.listMenu1}>
+              <div className={styles.top}>
+                <div className={styles.logo}>
+                  <img
+                    className={styles.asset21}
+                    alt=""
+                    src="/asset-2-1@2x.png"
+                  />
+                </div>
+              </div>
+              <ListMenu
+                home="/home1.svg"
+                text="Dashboard"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="#ffddc8"
+                listMenuWidth="216px"
+                listMenuAlignSelf="unset"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="0px var(--padding-3xs)"
+                contentBoxSizing="border-box"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#000"
+                textFontWeight="500"
+              />
+              <ListMenu
+                home="/suppliers.svg"
+                text="Profile"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+              <ListMenu
+                home="/report.svg"
+                text="Chef Service"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+              <ListMenu
+                home="/order.svg"
+                text="Tiffin Service"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+              <ListMenu
+                home="/manage-store.svg"
+                text="Laundry Service"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+              <ListMenu
+                home="/manage-store.svg"
+                text="Home Makers"
+                showContent
+                showText
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+              <div className={styles.content1}>
+                <img
+                  className={styles.searchIcon}
+                  alt=""
+                  src="/manage-store.svg"
+                />
+                <div className={styles.text}>User Management</div>
+              </div>
+              <div className={styles.content1}>
+                <img
+                  className={styles.searchIcon}
+                  alt=""
+                  src="/manage-store.svg"
+                />
+                <div className={styles.text}>Orders</div>
+              </div>
+              <ListMenu
+                home="/manage-store.svg"
+                text="Catering Service"
+                showContent={false}
+                showText={false}
+                listMenuPadding="var(--padding-base) 0px"
+                listMenuBackgroundColor="unset"
+                listMenuWidth="unset"
+                listMenuAlignSelf="stretch"
+                listMenuPosition="unset"
+                listMenuTop="unset"
+                listMenuLeft="unset"
+                listMenuHeight="unset"
+                contentPadding="unset"
+                contentBoxSizing="unset"
+                homeIconOverflow="unset"
+                homeIconFlexShrink="unset"
+                textColor="#5d6679"
+                textFontWeight="500"
+              />
+            </div>
+          </div>
+        </div>
+        <div className={styles.listMenuParent}>
+          <ListMenu
+            home="/settings.svg"
+            text="Settings"
+            showContent
+            showText
+            listMenuPadding="var(--padding-3xs) 16px"
+            listMenuBackgroundColor="unset"
+            listMenuWidth="232px"
+            listMenuAlignSelf="unset"
+            listMenuPosition="unset"
+            listMenuTop="unset"
+            listMenuLeft="unset"
+            listMenuHeight="unset"
+            contentPadding="unset"
+            contentBoxSizing="unset"
+            homeIconOverflow="hidden"
+            homeIconFlexShrink="0"
+            textColor="#5d6679"
+            textFontWeight="bold"
+          />
+          <ListMenu
+            home="/log-out.svg"
+            text="Log Out"
+            showContent
+            showText
+            listMenuPadding="var(--padding-3xs) 16px"
+            listMenuBackgroundColor="unset"
+            listMenuWidth="232px"
+            listMenuAlignSelf="unset"
+            listMenuPosition="unset"
+            listMenuTop="unset"
+            listMenuLeft="unset"
+            listMenuHeight="unset"
+            contentPadding="unset"
+            contentBoxSizing="unset"
+            homeIconOverflow="hidden"
+            homeIconFlexShrink="0"
+            textColor="#5d6679"
+            textFontWeight="500"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Dashboard;
 import styles from "./Dashboard.module.css";
 
 const Dashboard = () => {

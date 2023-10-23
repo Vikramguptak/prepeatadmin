@@ -50,6 +50,58 @@
   color: var(--gray-500);
   font-family: var(--body-1-medium);
 }
+.text,
+.text1 {
+  position: relative;
+  line-height: 20px;
+}
+.text1 {
+  font-weight: 500;
+}
+.button,
+.buttonBase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--primary-primary-600);
+}
+.asset21,
+.row {
+  position: absolute;
+}
+.row {
+  top: 770px;
+  left: 844px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.asset21 {
+  top: 401px;
+  left: 98px;
+  width: 596px;
+  height: 176px;
+  object-fit: cover;
+}
+.login {
+  position: relative;
+  background-color: var(--global-white);
+  width: 100%;
+  height: 960px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-2-regular-size);
+  color: var(--gray-500);
+  font-family: var(--body-1-medium);
+}
 .asset21 {
   position: relative;
   width: 133px;

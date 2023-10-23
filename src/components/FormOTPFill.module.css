@@ -1,0 +1,28 @@
+.shape,
+.text {
+  position: absolute;
+}
+.shape {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--grey-soft-1);
+}
+.text {
+  top: calc(50% - 12px);
+  left: calc(50% - 4.15px);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.formOtpFill {
+  width: 74.3px;
+  height: 70px;
+  text-align: left;
+  font-size: var(--sub-heading-medium-size);
+  color: var(--darik);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,94 @@
+.businessTeam {
+  position: relative;
+  line-height: 145%;
+  display: inline-block;
+  width: 118px;
+}
+.starterPack {
+  position: relative;
+  font-weight: 500;
+}
+.starterPackWrapper {
+  border-radius: var(--br-81xl);
+  background-color: #210068;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-3xl);
+  font-size: var(--font-size-title-medium-size);
+  color: var(--global-white);
+}
+.businessTeamParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.span {
+  font-size: var(--font-size-title-medium-size);
+  font-family: var(--body-1-medium);
+  color: #1f1f1f;
+}
+.p {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.month1 {
+  margin: 0;
+  font-size: var(--font-size-base-regular-size);
+  font-weight: 600;
+  color: var(--color-darkgray);
+}
+.displayStarsIn,
+.month {
+  position: relative;
+  display: inline-block;
+}
+.month {
+  width: 179px;
+  font-size: var(--font-size-17xl);
+  color: #7206ff;
+}
+.displayStarsIn {
+  line-height: 170%;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  width: 155px;
+}
+.frameParent {
+  border-radius: var(--br-xs);
+  background-color: var(--global-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-xs);
+  gap: var(--gap-lg);
+}
+.choosePlan {
+  position: relative;
+  font-weight: 600;
+}
+.choosePlanWrapper,
+.colorlight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.choosePlanWrapper {
+  border-radius: var(--br-8xl);
+  background-color: #7b15ff;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-sm);
+  margin-top: -13px;
+  color: var(--global-white);
+}
+.colorlight {
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--paragraph-1-size);
+  color: var(--base-shade-100);
+  font-family: var(--body-1-medium);
+}

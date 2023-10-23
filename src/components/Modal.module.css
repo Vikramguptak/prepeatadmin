@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--padding-3xs) var(--padding-base);
-  font-size: var(--body-2-medium-size);
+  font-size: var(--body-2-regular-size);
   color: var(--global-white);
 }
 .staffName,
@@ -219,7 +219,7 @@
   width: 500px;
   height: 618px;
   text-align: left;
-  font-size: var(--body-1-medium-size);
+  font-size: var(--font-size-base-regular-size);
   color: var(--grey-grey-700);
-  font-family: var(--paragraph-1);
+  font-family: var(--body-1-medium);
 }

@@ -1,0 +1,148 @@
+.glassset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(70px);
+  width: 596px;
+  height: 597px;
+}
+.div,
+.raiseAComplaint {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+}
+.div {
+  top: 181px;
+  left: 257px;
+  font-size: var(--font-size-5xl);
+  text-align: center;
+  width: 294px;
+}
+.raiseAComplaint {
+  top: 52px;
+  left: calc(50% - 96px);
+  width: 253px;
+  height: 26px;
+  opacity: 0.8;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 209.6px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  width: 294.7px;
+  height: 71.7px;
+}
+.ticketNumber {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  line-height: 24px;
+  display: inline-block;
+  width: 229.9px;
+  height: 36.1px;
+  opacity: 0.8;
+}
+.groupInner {
+  position: absolute;
+  top: 111.7px;
+  left: 210px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--base-shade-100);
+  box-sizing: border-box;
+  width: 295px;
+  height: 95px;
+}
+.subject {
+  position: absolute;
+  top: 22.7px;
+  left: 0;
+  line-height: 24px;
+  display: inline-block;
+  width: 229.9px;
+  height: 36.1px;
+  opacity: 0.8;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 104.3px;
+  left: 0;
+  width: 505px;
+  height: 206.7px;
+}
+.complaint,
+.complaintWrapper {
+  position: absolute;
+  left: 0;
+  width: 229.9px;
+  height: 36.1px;
+}
+.complaint {
+  top: 0;
+  line-height: 24px;
+  display: inline-block;
+  opacity: 0.8;
+}
+.complaintWrapper {
+  top: 245px;
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 505px;
+  height: 311px;
+}
+.groupWrapper {
+  top: 154px;
+  left: 47px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 111.3px;
+  left: calc(50% - 265.8px);
+  width: 530.7px;
+  height: 1px;
+}
+.glasssetParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 596px;
+  height: 597px;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  height: 3.72%;
+  width: 3.74%;
+  top: 46.28%;
+  right: 10.77%;
+  bottom: 50%;
+  left: 85.49%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  top: 28.39%;
+  bottom: 67.89%;
+}
+.groupParent {
+  position: absolute;
+  top: 129px;
+  left: 301px;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.07);
+  width: 596px;
+  height: 597px;
+  text-align: left;
+  font-size: var(--sub-heading-medium-size);
+  color: var(--base-shade-100);
+  font-family: var(--font-poppins);
+}

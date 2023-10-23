@@ -1,0 +1,113 @@
+.backgroundChild {
+  border-radius: var(--br-mini);
+  background-color: var(--global-white);
+  box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
+}
+.background,
+.backgroundChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 679px;
+  height: 512px;
+}
+.span2 {
+  color: var(--gray-gray-500);
+}
+.span {
+  font-family: var(--font-open-sans);
+}
+.employedOn22062022 {
+  margin: 0;
+}
+.employedOn22062022Container {
+  position: absolute;
+  top: 149.7px;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+  width: 155.8px;
+  height: 18.7px;
+}
+.newDelhiIndia {
+  color: var(--gray-gray-400);
+}
+.emailIpshitakaurgmailcom,
+.fullNameIpshitaContainer,
+.locationNewDelhiContainer,
+.mobile9112345Container {
+  position: absolute;
+  top: 111.9px;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+  width: 197.1px;
+  height: 18.7px;
+}
+.emailIpshitakaurgmailcom,
+.fullNameIpshitaContainer,
+.mobile9112345Container {
+  top: 74.6px;
+  width: 262px;
+}
+.fullNameIpshitaContainer,
+.mobile9112345Container {
+  top: 37.3px;
+  width: 150.5px;
+}
+.fullNameIpshitaContainer {
+  top: 0;
+  width: 142.1px;
+}
+.details,
+.textChild {
+  position: absolute;
+  top: 180.9px;
+  left: 31px;
+  width: 262px;
+  height: 168.4px;
+}
+.textChild {
+  top: 123px;
+  left: 5px;
+  width: 582.6px;
+  height: 1px;
+}
+.hiImIpshita,
+.profileInformation1 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.hiImIpshita {
+  top: 41px;
+  line-height: 150%;
+  width: 574.5px;
+  height: 52.5px;
+}
+.profileInformation1 {
+  top: 0;
+  font-size: var(--font-size-title-medium-size);
+  line-height: 140%;
+  color: var(--gray-gray-700);
+  width: 215.8px;
+}
+.text {
+  position: absolute;
+  top: 28px;
+  left: 26.2px;
+  width: 587.6px;
+  height: 123.5px;
+  color: var(--gray-gray-400);
+}
+.profileInformation {
+  position: absolute;
+  top: 203px;
+  left: 888px;
+  width: 679px;
+  height: 512px;
+  text-align: left;
+  font-size: var(--paragraph-1-size);
+  color: var(--gray-gray-500);
+  font-family: var(--font-open-sans);
+}

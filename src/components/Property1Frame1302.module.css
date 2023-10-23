@@ -1,0 +1,16 @@
+.contactUs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27.9px;
+  display: inline-block;
+  width: 111px;
+}
+.property1frame1302 {
+  width: 111px;
+  height: 28px;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--global-white);
+  font-family: var(--font-poppins);
+}

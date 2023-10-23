@@ -1,0 +1,126 @@
+.frameChild,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+.groupChild {
+  background-color: var(--global-white);
+  box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.03);
+  width: 1196px;
+  height: 667px;
+}
+.frameChild {
+  width: 491px;
+  height: 647px;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 464px;
+  left: 311px;
+  border-radius: 50%;
+  background-color: var(--color-darkorange-200);
+  width: 269px;
+  height: 269px;
+}
+.frameInner {
+  top: 438px;
+  left: 283px;
+  background-color: var(--color-darkorange-300);
+  width: 138px;
+  height: 138px;
+}
+.contactInformation {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-weight: 600;
+}
+.bxsphoneCallIcon,
+.carbonlocationFilledIcon {
+  position: absolute;
+  top: 148px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.bxsphoneCallIcon {
+  top: 0;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+.bxsphoneCallParent,
+.icsharpEmailParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 167px;
+  height: 24px;
+}
+.icsharpEmailParent {
+  top: 74px;
+  width: 199px;
+}
+.dartmouthStreetBoston {
+  position: absolute;
+  top: 148px;
+  left: 49px;
+  display: inline-block;
+  width: 288px;
+}
+.carbonlocationFilledParent {
+  position: absolute;
+  top: 226px;
+  left: 40px;
+  width: 337px;
+  height: 196px;
+  font-size: var(--font-size-base-regular-size);
+}
+.frameChild1,
+.frameChild2,
+.groupIcon {
+  position: absolute;
+  top: 581px;
+  left: 39px;
+  width: 30px;
+  height: 30px;
+}
+.frameChild1,
+.frameChild2 {
+  left: 93px;
+}
+.frameChild2 {
+  left: 147px;
+}
+.claritycursorHandClickLineIcon,
+.vectorParent {
+  position: absolute;
+  top: 607px;
+  left: 106px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.vectorParent {
+  top: 10px;
+  left: 10px;
+  width: 491px;
+  height: 647px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1196px;
+  height: 667px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--global-white);
+  font-family: var(--font-poppins);
+}

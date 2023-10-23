@@ -1,0 +1,60 @@
+.generalInquiry,
+.selectSubject {
+  position: absolute;
+  top: 0;
+  line-height: 20px;
+  display: inline-block;
+  height: 20.4px;
+}
+.selectSubject {
+  left: 0;
+  font-size: var(--body-2-regular-size);
+  font-weight: 600;
+  width: 109px;
+}
+.generalInquiry {
+  left: 23px;
+  width: 92px;
+}
+.teenyiconstickCircleSolid {
+  position: absolute;
+  top: 4.1px;
+  left: 0;
+  width: 13px;
+  height: 13.2px;
+  overflow: hidden;
+}
+.generalInquiryParent {
+  position: absolute;
+  top: 34.6px;
+  left: 0;
+  width: 115px;
+  height: 20.4px;
+}
+.generalInquiryContainer,
+.generalInquiryGroup,
+.groupDiv {
+  position: absolute;
+  top: 34.6px;
+  left: 135px;
+  width: 115px;
+  height: 20.4px;
+}
+.generalInquiryContainer,
+.groupDiv {
+  left: 270px;
+}
+.groupDiv {
+  left: 405px;
+}
+.selectSubjectParent {
+  position: absolute;
+  top: 260px;
+  left: 551px;
+  width: 520px;
+  height: 55px;
+  text-align: left;
+  font-size: var(--paragraph-1-size);
+  color: var(--base-shade-100);
+  font-family: var(--font-poppins);
+}

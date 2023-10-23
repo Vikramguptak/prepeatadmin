@@ -1,0 +1,252 @@
+.salesOverview1 {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  font-size: var(--sub-heading-medium-size);
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--body-1-medium);
+  color: var(--grey-grey-800);
+}
+.apr,
+.aug,
+.dec,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.nov,
+.oct,
+.sep {
+  position: absolute;
+  top: 0;
+  left: 593.8px;
+  line-height: 150%;
+  display: inline-block;
+  width: 14.5px;
+  height: 10.2px;
+}
+.apr,
+.aug,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.nov,
+.oct,
+.sep {
+  left: 537.2px;
+  width: 18.1px;
+}
+.apr,
+.aug,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.oct,
+.sep {
+  left: 483.6px;
+  width: 14.5px;
+}
+.apr,
+.aug,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.sep {
+  left: 430.6px;
+  width: 13px;
+}
+.apr,
+.aug,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 377px;
+  width: 15.9px;
+}
+.apr,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 327px;
+  width: 10.9px;
+}
+.apr,
+.feb,
+.jan,
+.jun,
+.mar,
+.may {
+  left: 272.6px;
+  width: 15.2px;
+}
+.apr,
+.feb,
+.jan,
+.mar,
+.may {
+  left: 216.8px;
+  width: 15.9px;
+}
+.apr,
+.feb,
+.jan,
+.mar {
+  left: 160.2px;
+  width: 17.4px;
+}
+.feb,
+.jan,
+.mar {
+  left: 104.4px;
+  width: 16.7px;
+}
+.feb,
+.jan {
+  left: 51.5px;
+  width: 13px;
+}
+.jan {
+  left: 0;
+  width: 12.3px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.horizontal {
+  position: absolute;
+  top: 187.8px;
+  left: 25.4px;
+  width: 608.3px;
+  height: 10.2px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 160.4px;
+  left: 8.7px;
+  line-height: 150%;
+  display: inline-block;
+  width: 4.3px;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 128px;
+  left: 0;
+  width: 32px;
+  height: 11px;
+}
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 96px;
+  width: 20px;
+}
+.b3,
+.b4,
+.b5 {
+  top: 64px;
+  width: 25px;
+  height: 10px;
+}
+.b4,
+.b5 {
+  top: 32px;
+  width: 20px;
+}
+.b5 {
+  top: 0;
+  width: 25px;
+}
+.linesIcon,
+.vertical {
+  position: absolute;
+  top: -0.3px;
+  left: 52px;
+  width: 609px;
+  height: 171.7px;
+}
+.vertical {
+  top: 0;
+  left: 0;
+  width: 661px;
+  height: 171.4px;
+}
+.data,
+.graph,
+.linesIcon1 {
+  position: absolute;
+  top: 9.8px;
+  left: 24.3px;
+  width: 609.4px;
+  height: 161.3px;
+}
+.data,
+.graph {
+  top: 0;
+  left: 0;
+  width: 661px;
+  height: 198px;
+}
+.graph {
+  top: 79px;
+  left: 34px;
+  font-size: var(--font-size-3xs);
+  color: var(--gray-gray-300);
+  font-family: var(--font-open-sans);
+}
+.months,
+.sales {
+  position: absolute;
+  top: 326px;
+  left: 345px;
+  line-height: 12px;
+  text-align: center;
+}
+.sales {
+  top: 175px;
+  left: 10px;
+  transform: rotate(-89.51deg);
+  transform-origin: 0 0;
+}
+.salesOverview {
+  position: absolute;
+  top: 122px;
+  left: 312px;
+  border-radius: var(--br-5xs);
+  background-color: var(--global-white);
+  width: 690px;
+  height: 348px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--paragraph-1-size);
+  color: var(--base-shade-100);
+  font-family: var(--font-size-base-regular);
+}

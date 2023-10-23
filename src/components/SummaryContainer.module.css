@@ -1,0 +1,38 @@
+.quantityIcon {
+  position: relative;
+  border-radius: var(--br-9xs);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.totalUsers {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.totalUsers {
+  font-size: var(--body-2-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-darkslategray-200);
+}
+.parent,
+.quantityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.quantityParent {
+  position: absolute;
+  top: 66px;
+  left: 57px;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--grey-grey-600);
+  font-family: var(--body-1-medium);
+}

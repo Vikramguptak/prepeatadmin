@@ -1,0 +1,36 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-coral);
+  width: 508.2px;
+  height: 71.7px;
+}
+.raiseRequest {
+  position: absolute;
+  top: 24.3px;
+  left: calc(50% - 251.3px);
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  width: 504px;
+  height: 30px;
+  opacity: 0.8;
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 508.2px;
+  height: 71.7px;
+}
+.groupWrapper {
+  top: 490px;
+  left: 43px;
+  text-align: center;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--global-white);
+  font-family: var(--font-poppins);
+}

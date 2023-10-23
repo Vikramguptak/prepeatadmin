@@ -1,0 +1,97 @@
+.asset21 {
+  position: relative;
+  width: 118px;
+  height: 35px;
+  object-fit: cover;
+}
+.logo,
+.top {
+  width: 202px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top {
+  width: 214px;
+  height: 38px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.manageStoreIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.content {
+  background-color: var(--global-white);
+  width: 186px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.listMenu1 {
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.listMenu {
+  width: 232px;
+  height: 656px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.listMenuWrapper {
+  height: 576px;
+  justify-content: flex-start;
+}
+.listMenuParent,
+.listMenuWrapper,
+.tiffinService {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.listMenuParent {
+  height: 329px;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.tiffinService {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--global-white);
+  border-right: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 292px;
+  height: 979px;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-13xl)
+    var(--padding-mini);
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--grey-grey-600);
+  font-family: var(--body-1-medium);
+}

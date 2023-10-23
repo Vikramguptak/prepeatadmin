@@ -1,0 +1,30 @@
+.summary {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.salesOverviewChild {
+  position: absolute;
+  top: 58.5px;
+  left: 191.5px;
+  border-right: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 1px;
+  height: 92px;
+}
+.salesOverview {
+  position: absolute;
+  top: 122px;
+  left: 1024px;
+  border-radius: var(--br-5xs);
+  background-color: var(--global-white);
+  width: 384px;
+  height: 179px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--sub-heading-medium-size);
+  color: var(--grey-grey-800);
+  font-family: var(--body-1-medium);
+}

@@ -1,0 +1,44 @@
+.cardHeader {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.rightValue1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.contentWrapper,
+.rightValue {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightValue {
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--global-slate-70);
+}
+.contentWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+}
+.leftIconnoRightIconyes {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--global-white);
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-title-medium-size);
+  color: var(--global-slate-110);
+  font-family: var(--font-size-base-regular);
+  align-self: stretch;
+}

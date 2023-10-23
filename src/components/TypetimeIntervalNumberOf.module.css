@@ -1,0 +1,19 @@
+.jan1 {
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+  width: 60px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.typetimeIntervalNumberOf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--paragraph-1-size);
+  color: var(--global-slate-701);
+  font-family: var(--font-size-base-regular);
+  align-self: stretch;
+}

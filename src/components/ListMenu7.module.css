@@ -34,7 +34,7 @@
   align-items: flex-start;
   padding: var(--padding-base) 0;
   text-align: left;
-  font-size: var(--body-1-medium-size);
+  font-size: var(--font-size-base-regular-size);
   color: var(--base-shade-100);
-  font-family: var(--paragraph-1);
+  font-family: var(--body-1-medium);
 }

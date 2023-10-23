@@ -1,0 +1,16 @@
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27.9px;
+  display: inline-block;
+  width: 153px;
+}
+.property1frame1309 {
+  width: 153px;
+  height: 28px;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--global-white);
+  font-family: var(--font-poppins);
+}

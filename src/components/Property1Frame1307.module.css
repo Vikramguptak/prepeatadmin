@@ -1,0 +1,19 @@
+.reachUs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 4px;
+  line-height: 17.6px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 140px;
+  height: 26px;
+}
+.property1frame1307 {
+  width: 140px;
+  height: 26px;
+  text-align: left;
+  font-size: var(--sub-heading-medium-size);
+  color: var(--global-white);
+  font-family: var(--font-poppins);
+}

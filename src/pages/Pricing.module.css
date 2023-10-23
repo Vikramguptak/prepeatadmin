@@ -296,6 +296,74 @@
   position: relative;
   font-size: var(--font-size-title-medium-size);
 }
+.component6Parent,
+.heading {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.heading {
+  top: 142px;
+  left: 374px;
+  width: 698px;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+.component6Parent {
+  top: 328px;
+  left: calc(50% - 574.8px);
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 51px;
+}
+.chooseThePlan {
+  position: absolute;
+  top: 873px;
+  left: calc(50% - 280px);
+  font-size: var(--font-size-title-medium-size);
+  line-height: 172.02%;
+  color: #cecece;
+  display: inline-block;
+  width: 560px;
+}
+.pricing {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 979px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 45px;
+  color: var(--global-white);
+  font-family: var(--body-1-medium);
+}
+.image1Icon,
+.pricingChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 623px;
+}
+.image1Icon {
+  width: 1477px;
+  object-fit: cover;
+}
+.pricingChild {
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(20px);
+  width: 1440px;
+}
+.subscription {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 661px;
+}
+.chooseAPlan {
+  position: relative;
+  font-size: var(--font-size-title-medium-size);
+}
 .heading {
   position: absolute;
   top: 142px;

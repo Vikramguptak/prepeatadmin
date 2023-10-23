@@ -877,6 +877,208 @@
   padding: 0 var(--padding-13xl);
   box-sizing: border-box;
   color: var(--grey-grey-400);
+  font-family: var(--body-1-medium);
+}
+.notificationGroup {
+  position: absolute;
+  top: 30px;
+  left: 1640px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.profile1 {
+  position: absolute;
+  top: 37px;
+  left: 325px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--base-shade-100);
+  text-align: center;
+}
+.managerOrganiser {
+  position: absolute;
+  top: 44.5px;
+  left: 0.4px;
+  line-height: 140%;
+  display: inline-block;
+  width: 373.1px;
+  height: 56.7px;
+}
+.imageIcon,
+.name,
+.sophia {
+  position: absolute;
+  width: 438.1px;
+}
+.sophia {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-13xl);
+  line-height: 140%;
+  display: inline-block;
+  color: var(--gray-gray-700);
+  height: 70.9px;
+}
+.imageIcon,
+.name {
+  top: 252.8px;
+  left: 0.5px;
+  height: 101.2px;
+}
+.imageIcon {
+  top: 0;
+  left: 0;
+  width: 237.2px;
+  height: 226.9px;
+  object-fit: cover;
+}
+.avatar,
+.icon {
+  position: absolute;
+  top: 187.5px;
+  left: -3.5px;
+  width: 48.1px;
+  height: 45.5px;
+}
+.avatar {
+  top: 282px;
+  left: 461px;
+  width: 438.6px;
+  height: 354px;
+  font-size: var(--sub-heading-medium-size);
+}
+.developTheDashboard {
+  color: var(--gray-gray-400);
+}
+.futureTaskDevelopContainer,
+.onGoingTaskContainer,
+.roleDeveloper {
+  position: absolute;
+  top: 69.1px;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+  width: 248.9px;
+  height: 13.5px;
+}
+.onGoingTaskContainer,
+.roleDeveloper {
+  top: 34.5px;
+  width: 336px;
+}
+.roleDeveloper {
+  top: 0;
+  left: 1px;
+  width: 91px;
+}
+.details,
+.profileInformation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 336px;
+  height: 82.6px;
+}
+.profileInformation {
+  top: 568px;
+  left: 919px;
+  font-size: var(--paragraph-1-size);
+}
+.image2Icon {
+  position: absolute;
+  top: 546px;
+  left: 576px;
+  width: 28px;
+  height: 27px;
+  object-fit: cover;
+}
+.profile {
+  position: relative;
+  background-color: var(--grey-grey-50);
+  width: 100%;
+  height: 960px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--gray-gray-500);
+  font-family: var(--font-open-sans);
+}
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  background-color: var(--global-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 1477px;
+  height: 100px;
+}
+.searchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.searchProductSupplier {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.searchBar {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.notificationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.notificationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.searchBarParent {
+  position: absolute;
+  top: 28px;
+  left: 280px;
+  width: 1160px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  color: var(--grey-grey-400);
   font-family: var(--paragraph-1);
 }
 .notificationGroup {

@@ -2711,6 +2711,645 @@
   left: 17px;
   line-height: 20px;
   font-weight: 500;
+  color: var(--gray-500);
+}
+.role,
+.service {
+  left: 259px;
+}
+.service {
+  left: 475px;
+}
+.hrithik,
+.laundry,
+.rishabh,
+.staff,
+.staff1,
+.tiffin {
+  position: absolute;
+  top: 178px;
+  left: 17px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.laundry,
+.rishabh,
+.staff,
+.staff1,
+.tiffin {
+  left: 259px;
+}
+.laundry,
+.rishabh,
+.staff1,
+.tiffin {
+  left: 475px;
+}
+.laundry,
+.rishabh,
+.staff1 {
+  top: 225px;
+  left: 17px;
+}
+.laundry,
+.staff1 {
+  left: 258px;
+}
+.laundry {
+  left: 474px;
+}
+.chef,
+.kaustubh,
+.manisha,
+.shreya,
+.staff2,
+.staff3,
+.tiffinlaundry {
+  position: absolute;
+  top: 274px;
+  left: 17px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.chef,
+.kaustubh,
+.shreya,
+.staff2,
+.staff3,
+.tiffinlaundry {
+  left: 258px;
+}
+.chef,
+.kaustubh,
+.shreya,
+.staff3,
+.tiffinlaundry {
+  top: 273px;
+  left: 474px;
+}
+.chef,
+.kaustubh,
+.shreya,
+.staff3 {
+  top: 322px;
+  left: 17px;
+}
+.chef,
+.kaustubh,
+.staff3 {
+  left: 258px;
+}
+.chef,
+.kaustubh {
+  left: 474px;
+}
+.kaustubh {
+  top: 370px;
+  left: 17px;
+}
+.chef1,
+.dinesh,
+.homemaker,
+.laundry1,
+.prakhar,
+.staff4,
+.staff5 {
+  position: absolute;
+  top: 370px;
+  left: 258px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.chef1,
+.dinesh,
+.homemaker,
+.laundry1,
+.prakhar,
+.staff5 {
+  left: 476px;
+}
+.chef1,
+.dinesh,
+.laundry1,
+.prakhar,
+.staff5 {
+  top: 418px;
+  left: 17px;
+}
+.chef1,
+.laundry1,
+.prakhar,
+.staff5 {
+  left: 258px;
+}
+.chef1,
+.laundry1,
+.prakhar {
+  left: 475px;
+}
+.chef1,
+.prakhar {
+  top: 466px;
+  left: 17px;
+}
+.chef1 {
+  left: 474px;
+}
+.ram {
+  left: 17px;
+}
+.laundryhomemaker,
+.ram,
+.staff6 {
+  position: absolute;
+  top: 514px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.staff6 {
+  left: 258px;
+  display: inline-block;
+  width: 49px;
+}
+.laundryhomemaker {
+  left: 474px;
+}
+.frameChild,
+.frameChild1,
+.frameInner,
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  top: 115.8px;
+  left: 0;
+  width: 1096px;
+  height: 0.5px;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.vectorIcon {
+  top: 163.8px;
+}
+.frameChild1,
+.frameInner,
+.vectorIcon {
+  top: 211.8px;
+}
+.frameChild1,
+.vectorIcon {
+  top: 259.8px;
+}
+.frameChild1 {
+  top: 307.8px;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  position: absolute;
+  top: 355.8px;
+  left: 0;
+  width: 1096px;
+  height: 0.5px;
+}
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 403.8px;
+}
+.frameChild4,
+.frameChild5 {
+  top: 451.8px;
+}
+.frameChild5 {
+  top: 499.8px;
+}
+.admin,
+.staffsList,
+.tushar {
+  position: absolute;
+  left: 17px;
+  font-weight: 500;
+}
+.staffsList {
+  top: 29px;
+  font-size: var(--sub-heading-medium-size);
+  line-height: 30px;
+  color: var(--grey-grey-800);
+}
+.admin,
+.tushar {
+  top: 130px;
+  line-height: 20px;
+}
+.admin {
+  left: 258px;
+}
+.replaceButton {
+  position: absolute;
+  top: 576px;
+  left: 1017px;
+  border-radius: var(--br-9xs);
+  background-color: var(--global-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--grey-grey-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-mid);
+  color: var(--grey-grey-400);
+}
+.span {
+  font-weight: 500;
+}
+.details,
+.replaceButton1 {
+  position: absolute;
+  color: var(--grey-grey-400);
+}
+.details {
+  top: 585px;
+  left: 497px;
+  line-height: 20px;
+}
+.replaceButton1 {
+  top: 581px;
+  left: 17px;
+  border-radius: var(--br-9xs);
+  background-color: var(--global-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--grey-grey-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-mid);
+}
+.suspend {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 119px;
+  flex-shrink: 0;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  position: absolute;
+  top: 171px;
+  left: 722px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.button2,
+.button3,
+.button4,
+.button5 {
+  top: 218px;
+  background-color: var(--color-darkorange-100);
+}
+.button3,
+.button4,
+.button5 {
+  top: 267px;
+  background-color: var(--color-dodgerblue);
+}
+.button4,
+.button5 {
+  top: 314px;
+}
+.button5 {
+  top: 362px;
+}
+.span2 {
+  color: var(--color-darkorange-100);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button6,
+.button7,
+.button8,
+.button9 {
+  position: absolute;
+  top: 410px;
+  left: 722px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button7,
+.button8,
+.button9 {
+  top: 458px;
+  background-color: var(--color-darkorange-100);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button8,
+.button9 {
+  top: 506px;
+  background-color: var(--color-dodgerblue);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button9 {
+  top: 171px;
+  left: 926px;
+  background-color: var(--color-red);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 218px;
+}
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 266px;
+}
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 315px;
+}
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 362px;
+}
+.button14,
+.button15,
+.button16 {
+  top: 410px;
+}
+.button15,
+.button16 {
+  top: 459px;
+}
+.button16 {
+  top: 507px;
+}
+.staff7 {
+  position: absolute;
+  top: 466px;
+  left: 258px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button17 {
+  position: absolute;
+  top: 21px;
+  left: 821px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.buttonParent {
+  position: absolute;
+  top: 111px;
+  left: 309px;
+  border-radius: var(--br-5xs);
+  background-color: var(--global-white);
+  width: 1096px;
+  height: 838px;
+  font-size: var(--body-2-regular-size);
+  color: var(--grey-grey-700);
+}
+.staffManagement {
+  position: relative;
+  background-color: var(--grey-grey-50);
+  width: 100%;
+  height: 979px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--grey-grey-400);
+  font-family: var(--body-1-medium);
+}
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  background-color: var(--global-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 1148px;
+  height: 100px;
+}
+.searchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.searchProductSupplier {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.searchBar {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.notificationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.notificationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.searchBarParent {
+  position: absolute;
+  top: 28px;
+  left: 280px;
+  width: 1160px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.notificationGroup {
+  position: absolute;
+  top: 30px;
+  left: 1306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.div {
+  position: absolute;
+  top: 856px;
+  left: 925px;
+  font-size: var(--paragraph-1-size);
+  line-height: 150%;
+}
+.staffManagement1 {
+  position: absolute;
+  top: 35px;
+  left: 327px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--base-shade-100);
+  text-align: center;
+}
+.searchBar1 {
+  position: absolute;
+  top: 31px;
+  left: 727px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.filtersLinesIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.buttonBase {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.buttonBase {
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.button {
+  position: absolute;
+  top: 19px;
+  left: 973px;
+  border: 1px solid var(--grey-grey-100);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--grey-grey-600);
+}
+.name,
+.role,
+.service {
+  position: absolute;
+  top: 81px;
+  left: 17px;
+  line-height: 20px;
+  font-weight: 500;
   color: var(--grey-grey-500);
 }
 .role,

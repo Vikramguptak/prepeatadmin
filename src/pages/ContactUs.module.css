@@ -933,6 +933,234 @@
   font-size: var(--font-size-21xl);
   font-family: var(--font-poppins);
 }
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 54.5px;
+  left: 0;
+  width: 278px;
+  height: 1px;
+}
+.groupItem {
+  top: 32px;
+  left: 4.5px;
+  width: 1px;
+  height: 11.5px;
+}
+.firstName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+}
+.vectorGroup,
+.vectorParent {
+  position: absolute;
+  top: 60px;
+  left: 551px;
+  width: 278px;
+  height: 55px;
+}
+.vectorGroup {
+  top: 160px;
+}
+.doe {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-size: var(--body-2-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.vectorContainer {
+  position: absolute;
+  top: 60px;
+  left: 868px;
+  width: 278px;
+  height: 55px;
+  color: var(--base-shade-100);
+}
+.groupChild1,
+.writeYourMessage {
+  position: absolute;
+  top: 55.5px;
+  left: 0;
+  width: 595px;
+  height: 1px;
+}
+.writeYourMessage {
+  top: 25.5px;
+  font-size: var(--body-2-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 149px;
+  height: 20.4px;
+}
+.div,
+.groupDiv {
+  position: absolute;
+}
+.groupDiv {
+  top: 360px;
+  left: 551px;
+  width: 595px;
+  height: 56px;
+}
+.div {
+  top: 25px;
+  left: 0;
+  font-size: var(--body-2-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+}
+.groupWrapper,
+.vectorParent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 278px;
+  height: 55px;
+}
+.groupWrapper {
+  top: 160px;
+  left: 868px;
+  color: var(--base-shade-100);
+}
+.sendMessage {
+  position: relative;
+  font-weight: 500;
+}
+.sendMessageWrapper {
+  position: absolute;
+  top: 461px;
+  left: 932px;
+  border-radius: 5px;
+  background-color: var(--color-darkorange-100);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-29xl);
+  text-align: center;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--global-white);
+}
+.groupParent {
+  position: absolute;
+  top: 292px;
+  left: 122px;
+  width: 1196px;
+  height: 667px;
+  font-size: var(--paragraph-1-size);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.letterSend1Icon {
+  position: absolute;
+  top: 780px;
+  left: 919.9px;
+  width: 264.8px;
+  height: 217px;
+  object-fit: cover;
+}
+.socialIconAndLogo {
+  position: absolute;
+  height: 1.51%;
+  width: 7.43%;
+  top: 2.97%;
+  right: 3.61%;
+  bottom: 95.52%;
+  left: 88.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.about,
+.tc {
+  position: absolute;
+  top: 35px;
+  left: 793px;
+}
+.about {
+  top: 39px;
+  left: 902px;
+}
+.contactUs2,
+.home {
+  position: absolute;
+  top: 35px;
+}
+.contactUs2 {
+  left: 1013px;
+  text-decoration: underline;
+}
+.home {
+  left: 668px;
+}
+.asset21 {
+  position: relative;
+  width: 118px;
+  height: 35px;
+  object-fit: cover;
+}
+.logo,
+.top {
+  width: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top {
+  position: absolute;
+  top: 49px;
+  left: 50px;
+  width: 130px;
+  height: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.contactUs {
+  position: relative;
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 1639px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--base-shade-100);
+  font-family: var(--font-myanmar-khyay);
+}
+.anyQuestionOr,
+.contactUs1 {
+  position: absolute;
+  top: 0;
+  left: 118px;
+}
+.anyQuestionOr {
+  top: 70px;
+  left: 0;
+  font-size: var(--font-size-title-medium-size);
+  font-weight: 500;
+  color: #717171;
+  text-align: center;
+}
+.contactUsParent {
+  position: absolute;
+  top: 145px;
+  left: 489px;
+  width: 462px;
+  height: 97px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
 .frameChild,
 .groupChild {
   position: absolute;

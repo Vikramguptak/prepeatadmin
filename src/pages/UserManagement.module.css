@@ -150,6 +150,808 @@
 .name,
 .role {
   top: 81px;
+  color: var(--gray-500);
+}
+.name {
+  position: absolute;
+  left: 27px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.role {
+  left: 219px;
+}
+.hrithik,
+.role,
+.service,
+.vendor,
+.vendor1 {
+  position: absolute;
+  line-height: 20px;
+  font-weight: 500;
+}
+.service {
+  top: 81px;
+  left: 395px;
+  color: var(--gray-500);
+}
+.hrithik,
+.vendor,
+.vendor1 {
+  top: 178px;
+  left: 27px;
+}
+.vendor,
+.vendor1 {
+  left: 219px;
+}
+.vendor1 {
+  top: 177px;
+  left: 584px;
+}
+.containerIcon,
+.containerIcon1,
+.containerIcon2,
+.containerIcon3 {
+  position: absolute;
+  height: 2.86%;
+  width: 2.19%;
+  top: 21%;
+  right: 39.96%;
+  bottom: 76.13%;
+  left: 57.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.containerIcon1,
+.containerIcon2,
+.containerIcon3 {
+  right: 87.04%;
+  left: 10.77%;
+}
+.containerIcon2,
+.containerIcon3 {
+  top: 26.49%;
+  bottom: 70.64%;
+}
+.containerIcon3 {
+  top: 49.64%;
+  bottom: 47.49%;
+}
+.containerIcon10,
+.containerIcon4,
+.containerIcon5,
+.containerIcon6,
+.containerIcon7,
+.containerIcon8,
+.containerIcon9 {
+  position: absolute;
+  height: 2.86%;
+  width: 2.19%;
+  top: 26.97%;
+  right: 39.96%;
+  bottom: 70.17%;
+  left: 57.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.containerIcon10,
+.containerIcon5,
+.containerIcon6,
+.containerIcon7,
+.containerIcon8,
+.containerIcon9 {
+  top: 32.7%;
+  bottom: 64.44%;
+}
+.containerIcon10,
+.containerIcon6,
+.containerIcon7,
+.containerIcon8,
+.containerIcon9 {
+  top: 38.42%;
+  bottom: 58.71%;
+}
+.containerIcon10,
+.containerIcon7,
+.containerIcon8,
+.containerIcon9 {
+  top: 43.91%;
+  right: 39.87%;
+  bottom: 53.22%;
+  left: 57.94%;
+}
+.containerIcon10,
+.containerIcon8,
+.containerIcon9 {
+  top: 49.4%;
+  bottom: 47.73%;
+}
+.containerIcon10,
+.containerIcon9 {
+  top: 55.49%;
+  bottom: 41.65%;
+}
+.containerIcon10 {
+  top: 60.98%;
+  right: 39.96%;
+  bottom: 36.16%;
+  left: 57.85%;
+}
+.rishabh,
+.tiffin,
+.vendor2 {
+  position: absolute;
+  top: 178px;
+  left: 395px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.rishabh,
+.vendor2 {
+  top: 225px;
+  left: 27px;
+}
+.vendor2 {
+  left: 218px;
+}
+.laundry,
+.manisha,
+.shreya,
+.tiffinlaundry,
+.vendor3,
+.vendor4,
+.vendor5 {
+  position: absolute;
+  top: 225px;
+  left: 584px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.laundry,
+.manisha,
+.shreya,
+.tiffinlaundry,
+.vendor4,
+.vendor5 {
+  left: 394px;
+}
+.manisha,
+.shreya,
+.tiffinlaundry,
+.vendor4,
+.vendor5 {
+  top: 274px;
+  left: 27px;
+}
+.shreya,
+.tiffinlaundry,
+.vendor4,
+.vendor5 {
+  left: 218px;
+}
+.shreya,
+.tiffinlaundry,
+.vendor5 {
+  left: 585px;
+}
+.shreya,
+.tiffinlaundry {
+  top: 273px;
+  left: 394px;
+}
+.shreya {
+  top: 322px;
+  left: 27px;
+}
+.chef,
+.homemaker,
+.kaustubh,
+.vendor6,
+.vendor7,
+.vendor8,
+.vendor9 {
+  position: absolute;
+  top: 322px;
+  left: 218px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.chef,
+.homemaker,
+.kaustubh,
+.vendor7,
+.vendor8,
+.vendor9 {
+  left: 586px;
+}
+.chef,
+.homemaker,
+.kaustubh,
+.vendor8,
+.vendor9 {
+  left: 394px;
+}
+.homemaker,
+.kaustubh,
+.vendor8,
+.vendor9 {
+  top: 370px;
+  left: 27px;
+}
+.homemaker,
+.vendor8,
+.vendor9 {
+  left: 218px;
+}
+.homemaker,
+.vendor9 {
+  top: 369px;
+  left: 587px;
+}
+.homemaker {
+  top: 370px;
+  left: 396px;
+}
+.chef1,
+.dinesh,
+.laundry1,
+.prakhar,
+.vendor10,
+.vendor11,
+.vendor12 {
+  position: absolute;
+  top: 418px;
+  left: 27px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.chef1,
+.laundry1,
+.prakhar,
+.vendor10,
+.vendor11,
+.vendor12 {
+  left: 218px;
+}
+.chef1,
+.laundry1,
+.prakhar,
+.vendor11,
+.vendor12 {
+  left: 588px;
+}
+.chef1,
+.laundry1,
+.prakhar,
+.vendor12 {
+  left: 395px;
+}
+.chef1,
+.prakhar,
+.vendor12 {
+  top: 466px;
+  left: 27px;
+}
+.chef1,
+.vendor12 {
+  left: 588px;
+}
+.chef1 {
+  left: 394px;
+}
+.ram {
+  top: 514px;
+  left: 27px;
+}
+.admin,
+.admin1,
+.changeRole,
+.laundryhomemaker,
+.ram {
+  position: absolute;
+  line-height: 20px;
+  font-weight: 500;
+}
+.admin {
+  top: 514px;
+  left: 218px;
+  display: inline-block;
+  width: 49px;
+}
+.admin1,
+.changeRole,
+.laundryhomemaker {
+  top: 513px;
+  left: 596px;
+}
+.changeRole,
+.laundryhomemaker {
+  top: 514px;
+  left: 394px;
+}
+.changeRole {
+  top: 81px;
+  left: 573px;
+  color: var(--gray-500);
+}
+.frameChild,
+.frameChild1,
+.frameInner,
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  top: 115.8px;
+  left: 0;
+  width: 1096px;
+  height: 0.5px;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.vectorIcon {
+  top: 163.8px;
+}
+.frameChild1,
+.frameInner,
+.vectorIcon {
+  top: 211.8px;
+}
+.frameChild1,
+.vectorIcon {
+  top: 259.8px;
+}
+.frameChild1 {
+  top: 307.8px;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  position: absolute;
+  top: 355.8px;
+  left: 0;
+  width: 1096px;
+  height: 0.5px;
+}
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 403.8px;
+}
+.frameChild4,
+.frameChild5 {
+  top: 451.8px;
+}
+.frameChild5 {
+  top: 499.8px;
+}
+.admin2,
+.admin3,
+.tushar,
+.usersList {
+  position: absolute;
+  left: 27px;
+  font-weight: 500;
+}
+.usersList {
+  top: 29px;
+  font-size: var(--sub-heading-medium-size);
+  line-height: 30px;
+  color: var(--grey-grey-800);
+}
+.admin2,
+.admin3,
+.tushar {
+  top: 130px;
+  line-height: 20px;
+}
+.admin2,
+.admin3 {
+  left: 218px;
+}
+.admin3 {
+  top: 129px;
+  left: 584px;
+}
+.replaceButton {
+  position: absolute;
+  top: 611px;
+  left: 1015px;
+  border-radius: var(--br-9xs);
+  background-color: var(--global-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--grey-grey-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-mid);
+  color: var(--grey-grey-400);
+}
+.span {
+  font-weight: 500;
+}
+.details,
+.replaceButton1 {
+  position: absolute;
+  color: var(--grey-grey-400);
+}
+.details {
+  top: 620px;
+  left: 495px;
+  line-height: 20px;
+}
+.replaceButton1 {
+  top: 616px;
+  left: 15px;
+  border-radius: var(--br-9xs);
+  background-color: var(--global-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--grey-grey-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-mid);
+}
+.suspend {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 119px;
+  flex-shrink: 0;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  position: absolute;
+  top: 171px;
+  left: 722px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.button2,
+.button3,
+.button4,
+.button5 {
+  top: 218px;
+}
+.button3,
+.button4,
+.button5 {
+  top: 267px;
+}
+.button4,
+.button5 {
+  top: 314px;
+  background-color: var(--color-darkorange-100);
+}
+.button5 {
+  top: 362px;
+}
+.span2 {
+  color: var(--color-darkorange-100);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button6,
+.button7,
+.button8,
+.button9 {
+  position: absolute;
+  top: 410px;
+  left: 722px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button7,
+.button8,
+.button9 {
+  top: 458px;
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button8,
+.button9 {
+  top: 506px;
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button9 {
+  top: 171px;
+  left: 926px;
+  background-color: var(--color-red);
+}
+.button10,
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 218px;
+}
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 266px;
+}
+.button12,
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 315px;
+}
+.button13,
+.button14,
+.button15,
+.button16 {
+  top: 362px;
+}
+.button14,
+.button15,
+.button16 {
+  top: 410px;
+}
+.button15,
+.button16 {
+  top: 459px;
+}
+.button16 {
+  top: 507px;
+}
+.vendor13 {
+  position: absolute;
+  top: 466px;
+  left: 218px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button17 {
+  position: absolute;
+  top: 21px;
+  left: 823px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-dodgerblue);
+  width: 126px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--global-white);
+}
+.buttonParent {
+  position: absolute;
+  top: 111px;
+  left: 309px;
+  border-radius: var(--br-5xs);
+  background-color: var(--global-white);
+  width: 1096px;
+  height: 838px;
+  font-size: var(--body-2-regular-size);
+  color: var(--grey-grey-700);
+}
+.userManagement {
+  position: relative;
+  background-color: var(--grey-grey-50);
+  width: 100%;
+  height: 979px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base-regular-size);
+  color: var(--grey-grey-400);
+  font-family: var(--body-1-medium);
+}
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  background-color: var(--global-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 1148px;
+  height: 100px;
+}
+.searchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.searchProductSupplier {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.searchBar {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.notificationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.notificationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.searchBarParent {
+  position: absolute;
+  top: 28px;
+  left: 280px;
+  width: 1160px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.notificationGroup {
+  position: absolute;
+  top: 30px;
+  left: 1306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.div {
+  position: absolute;
+  top: 856px;
+  left: 925px;
+  font-size: var(--paragraph-1-size);
+  line-height: 150%;
+}
+.userManagement1 {
+  position: absolute;
+  top: 35px;
+  left: 331px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--base-shade-100);
+  text-align: center;
+}
+.searchBar1 {
+  position: absolute;
+  top: 31px;
+  left: 727px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.filtersLinesIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.buttonBase {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.buttonBase {
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.button {
+  position: absolute;
+  top: 19px;
+  left: 973px;
+  border: 1px solid var(--grey-grey-100);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--grey-grey-600);
+}
+.name,
+.role {
+  top: 81px;
   color: var(--grey-grey-500);
 }
 .name {
